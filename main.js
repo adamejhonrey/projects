@@ -38,3 +38,10 @@ function smoothScroll(target, duration) {
 
   requestAnimationFrame(animation);
 }
+const websiteBuilderButton = document.getElementById('website-builder-button');
+
+// Add a click event listener to the button
+websiteBuilderButton.addEventListener('click', () => {
+  // Redirect to the website builder page
+  window.location.href = '/website-builder.html';
+});
